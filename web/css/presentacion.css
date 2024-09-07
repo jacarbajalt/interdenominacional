@@ -1,0 +1,145 @@
+
+nav a:hover {
+    background-color: #00324b;
+    color: #fff;
+    border-top-color: #65bce8;
+}
+
+nav a:active {
+    border-top-color: #f90;
+    background: #f90;
+    color: #00324b;
+}
+
+  fieldset {
+  background-color:#D5D8DC;
+color: black;
+border-color: darkgoldenrod;
+border: 9px groove black;
+border-radius: 7px;
+
+
+
+}
+
+  /* Estilos adicionales para la adaptación de la página */
+  @media (max-width: 500px) {
+      /* Estilos para dispositivos pequeños */
+      .presentacion-form .row {
+          display: flex;
+          flex-wrap: wrap;
+          margin-right: -10px;
+          margin-left: -10px;
+      }
+      .presentacion-form .col-6,
+      .presentacion-form .col-3,
+      .presentacion-form .col-4 {
+          flex: 0 0 100%;
+          max-width: 100%;
+          padding-right: 10px;
+          padding-left: 10px;
+      }
+  }
+  @media (min-width: 501px) and (max-width: 768px) {
+      /* Estilos para dispositivos medianos */
+      .presentacion-form .row {
+          display: flex;
+          flex-wrap: wrap;
+          margin-right: -15px;
+          margin-left: -15px;
+      }
+      .presentacion-form .col-6 {
+          flex: 0 0 100%;
+          max-width: 100%;
+          padding-right: 15px;
+          padding-left: 15px;
+      }
+      .presenatcion-form .col-3 {
+          flex: 0 0 33.333333%;
+          max-width: 33.333333%;
+          padding-right: 15px;
+          padding-left: 15px;
+      }
+      .presentacion-form .col-4 {
+          flex: 0 0 25%;
+          max-width: 25%;
+          padding-right: 15px;
+          padding-left: 15px;
+      }
+  }
+    /* Estilos adicionales para la adaptación de la página */
+    @media (max-width: 768px) {
+      /* Estilos para dispositivos pequeños (smartphones en vertical y tablets en vertical) */
+      .presentacion-form .row {
+          display: flex;
+          flex-wrap: wrap;
+          margin-right: -15px;
+          margin-left: -15px;
+      }
+      .congregante-form .col-6,
+      .presentacion-form .col-3,
+      .presentacion-form .col-4 {
+          flex: 0 0 100%;
+          max-width: 100%;
+          padding-right: 15px;
+          padding-left: 15px;
+      }
+  }
+  @media (min-width: 769px) and (max-width: 992px) {
+      /* Estilos para dispositivos medianos (tablets en horizontal y laptops) */
+      .presentacion-form .row {
+          display: flex;
+          flex-wrap: wrap;
+          margin-right: -15px;
+          margin-left: -15px;
+      }
+      .presentacion-form .col-6 {
+          flex: 0 0 100%;
+          max-width: 100%;
+          padding-right: 15px;
+          padding-left: 15px;
+      }
+      .presentacion-form .col-3,
+      .presentacion-form .col-4 {
+          flex: 0 0 33.333333%;
+          max-width: 33.333333%;
+          padding-right: 15px;
+          padding-left: 15px;
+      }
+  }
+  @media (min-width: 993px) {
+      /* Estilos para dispositivos grandes (laptops y pantallas más grandes) */
+      .presentacion-form .row {
+          display: flex;
+          flex-wrap: wrap;
+          margin-right: -15px;
+          margin-left: -15px;
+      }
+      .presentacion-form .col-6,
+      .presentacion-form .col-3,
+      .presentacion-form .col-4 {
+          flex: 0 0 auto;
+          padding-right: 15px;
+          padding-left: 15px;
+      }
+  }
+  .custom-hr {
+  border: 0;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #00324b, transparent);
+  margin: 20px 0; /* Espacio superior e inferior */
+  width: 80%; /* Anchura ajustable */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  .modal-header {
+      display: none;
+      
+  }
+    .modal-header .close {
+      display: none;
+  }
+    .button-spacing {
+      margin-right: 10px; /* Ajusta el valor según sea necesario */
+  }

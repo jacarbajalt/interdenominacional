@@ -1,0 +1,13 @@
+.main-header {
+    background-color: black; /* Color de la barra blanca */
+   /* background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);*/
+}
+body {
+        overflow: auto;  /* Asegura que las barras de desplazamiento estén presentes */
+
+    }
+
+
+    .text-white {
+color: #fff; /* Color blanco */
+}    
